@@ -4,6 +4,7 @@ document.querySelector('#user-name').innerHTML = userName;
 
 //if trying it on a phone, use this instead...
 const socket = io.connect('https://192.168.1.7:8181/',{
+    
 // const socket = io.connect('https://localhost:8181/',{
     auth: {
         userName,password
